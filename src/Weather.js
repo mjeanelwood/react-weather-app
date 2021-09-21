@@ -31,10 +31,12 @@ export default function Weather() {
   }
 
   let form = (
-    <form onSubmit={handleSubmit}>
-      <input type="text" placeholder="Enter a city" onChange={updateCity} />
-      <button type="Submit">Search</button>
-    </form>
+    <div className="form-description">
+      <form onSubmit={handleSubmit}>
+        <input type="text" placeholder="Enter a city" onChange={updateCity} />
+        <button type="Submit">Search</button>
+      </form>
+    </div>
   );
 
   if (loaded) {
@@ -49,7 +51,7 @@ export default function Weather() {
           <li>Wind: {Math.round(weather.wind)} km/h</li>
           <li>Humidity: {Math.round(weather.humidity)}%</li>
           <li>Description: {weather.description}</li>
-          <li>
+          <li className="weather-icon">
             <img src={weather.icon} alt={weather.description} />
           </li>
         </ul>

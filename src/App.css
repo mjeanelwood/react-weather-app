@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   min-height: 100vh;
@@ -28,12 +22,4 @@
 }
 .title {
   color: #113f67;
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
