@@ -28,7 +28,7 @@ export default function App() {
             Open source coding
           </a>{" "}
           by Melba Elwood | hosted by{" "}
-          <a href="" target="_blank" rel="noreferrer">
+          <a href="https://www.netlify.com" target="_blank" rel="noreferrer">
             Netlify
           </a>
         </p>
