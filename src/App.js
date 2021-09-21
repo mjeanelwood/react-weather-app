@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Weather Search Engine</h2>
+        <h2 className="title">Weather Search Engine</h2>
         <Weather />
       </header>
     </div>

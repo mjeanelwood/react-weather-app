@@ -42,7 +42,7 @@ export default function Weather() {
       <div>
         {form}
         <h3>
-          Currently in <span className="city-name">{city}</span> the weather is:
+          Currently the weather in <span className="city-name">{city}</span> is:
         </h3>
         <ul>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>

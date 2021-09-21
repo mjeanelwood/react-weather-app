@@ -2,6 +2,10 @@ ul {
   list-style: none;
   padding: 0;
   text-align: center;
+  color: #113f67;
+}
+h3 {
+  color: #113f67;
 }
 
 .city-name {
