@@ -3,3 +3,7 @@ ul {
   padding: 0;
   text-align: center;
 }
+
+.city-name {
+  text-transform: capitalize;
+}

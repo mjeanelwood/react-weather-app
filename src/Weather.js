@@ -41,6 +41,9 @@ export default function Weather() {
     return (
       <div>
         {form}
+        <h3>
+          Currently in <span className="city-name">{city}</span> the weather is:
+        </h3>
         <ul>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
           <li>Wind: {Math.round(weather.wind)} km/h</li>
