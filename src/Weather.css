@@ -13,5 +13,9 @@ h3 {
 }
 
 .form-description {
-  font-size: 50px;
+  padding: 15px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
 }
