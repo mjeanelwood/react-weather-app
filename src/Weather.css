@@ -11,3 +11,7 @@ h3 {
 .city-name {
   text-transform: capitalize;
 }
+
+.form-description {
+  font-size: 50px;
+}
