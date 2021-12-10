@@ -16,7 +16,7 @@ export default function App() {
         </a>{" "}
         by Melba Elwood | hosted by{" "}
         <a
-          href="https://app.netlify.com/sites/focused-shockley-f75a75/deploys"
+          href="https://focused-shockley-f75a75.netlify.app"
           target="_blank"
           rel="noreferrer"
         >
